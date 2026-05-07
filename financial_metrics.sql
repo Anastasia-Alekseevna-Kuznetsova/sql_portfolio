@@ -9,7 +9,6 @@ WITH revenue_analysis AS (
 )
 SELECT * FROM revenue_analysis;
 
--- 2. Топ-3 продукта по росту выручки
 SELECT 
     p.product_name,
     SUM(t.amount) as total_revenue,
